@@ -55,6 +55,7 @@ module Locomotive
                 optional :order_by
                 optional :ui_enabled
                 optional :group
+                optional :read_only
               end
               optional :order_by
               optional :order_direction
@@ -107,6 +108,7 @@ module Locomotive
                 optional :ui_enabled
                 optional :group
                 optional :_destroy
+                optional :read_only
               end
               optional :order_by
               optional :order_direction
